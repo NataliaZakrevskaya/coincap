@@ -1,0 +1,30 @@
+.modalInner {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & input {
+    width: 100%;
+    height: 30px;
+    border: 2px solid #ffd300;
+    border-radius: 3px;
+    outline: none;
+    padding: 4px 13px;
+  }
+
+  & button {
+    text-align: center;
+    background-color: #ffd300;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 15px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    &:hover{
+      background-color: #f5c400;
+    }
+  }
+}
